@@ -82,7 +82,7 @@ Frontend runs at:
 arduino
 Copy code
 http://localhost:3000
-🚀 Running Full Project (2 Terminals)
+Running Full Project (2 Terminals)
 
 Terminal 1:
 cd report-api
