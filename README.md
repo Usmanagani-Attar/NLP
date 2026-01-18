@@ -47,9 +47,10 @@ report-api/.env
 
 
 Add this:
-
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/nlp_reports
+MONGODB_URI=mongodb://localhost:27017/report-generator
+NODE_ENV=development
+JWT_SECRET=change_this_secret
 
 
 If you are using MongoDB Atlas, use:
