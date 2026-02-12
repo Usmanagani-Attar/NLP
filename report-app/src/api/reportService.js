@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/reports";
+const API_URL = "https://nlp-gv28.onrender.com/api/reports";
 
 // Fetch all reports
 export const fetchReports = async () => {
