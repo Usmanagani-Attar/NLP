@@ -19,7 +19,7 @@ function ReportCharts() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/reports")
+      .get("https://nlp-gv28.onrender.com/api/reports")
       .then((res) => setReports(res.data))
       .catch((err) => console.error("Error fetching reports:", err));
   }, []);
