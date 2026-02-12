@@ -4,7 +4,7 @@ console.log("📡 Sending request to /api/reports/generate ...");
 
 async function testReport() {
   try {
-    const response = await axios.post('http://localhost:5000/api/reports/generate', {
+    const response = await axios.post('https://nlp-gv28.onrender.com/api/reports/generate', {
       title: "Q4 Sales Report",
       department: "Sales",
       data: [

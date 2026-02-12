@@ -2,7 +2,7 @@ const axios = require('axios');
 
 async function fetchReports() {
   try {
-    const response = await axios.get('http://localhost:5000/api/reports');
+    const response = await axios.get('https://nlp-gv28.onrender.com/api/reports');
     console.log("📊 All Reports:\n", response.data);
   } catch (err) {
     console.error("❌ Error:", err.message);
