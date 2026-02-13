@@ -1,113 +1,149 @@
-# NLP-Report_Generator
-MERN stack NLP app for generating summaries, sentiment analysis, and keyword extraction from departmental reports
+# 🧠 NLP Based Departmental Report Generator
 
-
-
-# NLP Based Departmental Report Generator
-
-A MERN stack project that generates departmental reports using NLP (summary, sentiment analysis, key terms) and displays results using charts.
+A **MERN Stack NLP Application** that generates **summaries**, performs **sentiment analysis**, and extracts **keywords** from departmental reports.  
+The results are visualized using charts for better insights.
 
 ---
 
-##  Project Structure
+## 📌 About This Project
 
-Report Generator/
-│── report-api/ # Backend (Node.js + Express + MongoDB)
-│── report-app/ # Frontend (React)
+This project applies **Natural Language Processing (NLP)** techniques to departmental reports in order to:
+- Generate concise summaries
+- Perform sentiment analysis
+- Extract important keywords
+- Display analytical results using charts
 
+---
+
+## 🧩 Tech Stack
+
+### 🎨 Frontend
+- React.js
+- Chart libraries for visualization
+
+### ⚙️ Backend
+- Node.js
+- Express.js
+- NLP processing
+- JWT Authentication
+
+### 🗄️ Database
+- MongoDB (Local / Atlas)
+
+---
+
+## 📂 Project Structure
+
+NLP-Report_Generator/
+- │── report-api/               # Backend (Node.js + Express + MongoDB)
+- │── report-app/               # Frontend (React)
+  
 
 
 ---
 
-##  Requirements
+## ⚙️ Requirements
 
-Make sure you have installed:
-
-- Node.js (Recommended: v18 or v20 LTS)
-- npm
-- MongoDB (Local OR MongoDB Atlas)
+Make sure you have the following installed:
+ - Node.js (Recommended: v18 or v20 LTS)
+ - npm
+ - MongoDB (Local or MongoDB Atlas)
 
 Check versions:
-```bash
-node -v
-npm -v
+- node -v
+- npm -v
 
 
-Backend Setup (report-api)
-1. Go to backend folder
-cd report-api
+---
+
+## 🔧 Backend Setup (report-api)
+
+1. Navigate to backend folder
+
+- cd report-api
+
 
 2. Install dependencies
-npm install
 
-3. Create .env file inside report-api
-Create file:
+- npm install
 
-report-api/.env
+3. Create `.env` file
+- report-api/.env
 
 
-Add this:
+Add the following:
+```
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/report-generator
 NODE_ENV=development
 JWT_SECRET=change_this_secret
+```
 
-
-If you are using MongoDB Atlas, use:
+MongoDB Atlas (optional):
+```
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/nlp_reports?retryWrites=true&w=majority
+```
 
 4. Start backend server
-npm start
+   
+- npm start
 
 
 Backend runs at:
-
+```
 http://localhost:5000
+```
 
+---
 
+## 💻 Frontend Setup (report-app)
 
+1. Navigate to frontend folder
+- cd report-app
 
-################################################################
-
-Frontend Setup (report-app)
-1. Open new terminal and go to frontend folder
-cd report-app
 
 2. Install dependencies
-npm install
+- npm install
+
 
 3. Start frontend
-npm start
-Frontend runs at:
+- npm start
 
-arduino
-Copy code
+
+Frontend runs at:
+```
 http://localhost:3000
 
-Running Full Project (2 Terminals)
+```
 
-Terminal 1:
-cd report-api
-npm install
-npm start
+---
 
-Terminal 2:
-cd report-app
-npm install
-npm start
+## ▶️ Running Full Project (Two Terminals)
 
+### Terminal 1 – Backend
 
-########$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$########
-
-Notes
-
-node_modules is not pushed (ignored using .gitignore)
-
-Users must run npm install after cloning
-
-.env is not pushed for security reasons
+- cd report-api
+- npm install
+- npm start
 
 
-Author
+### Terminal 2 – Frontend
+- cd report-app
+- npm install
+- npm start
 
-Usmanagani-Attar
+
+---
+
+## 📝 Notes
+
+- `node_modules` is ignored using `.gitignore`
+- Run `npm install` after cloning the repository
+- `.env` file is not pushed for security reasons
+
+---
+
+## 👨‍💻 Author
+
+**Usman**
+Engineering Student | Full Stack & NLP Developer 🚀
