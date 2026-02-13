@@ -8,7 +8,7 @@ The results are visualized using charts for better insights.
 ## 📌 About This Project
 
 This project applies **Natural Language Processing (NLP)** techniques to departmental reports in order to:
-- Generate concise summaries
+
 - Perform sentiment analysis
 - Extract important keywords
 - Display analytical results using charts
@@ -89,7 +89,7 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/nlp_reports?r
 - npm start
 
 
-Backend runs at:
+*Backend runs at:*
 ```
 http://localhost:5000
 ```
@@ -110,7 +110,7 @@ http://localhost:5000
 - npm start
 
 
-Frontend runs at:
+*Frontend runs at:*
 ```
 http://localhost:3000
 
