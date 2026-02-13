@@ -89,7 +89,7 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/nlp_reports?r
 - npm start
 
 
-*Backend runs at:*
+**Backend runs at:**
 ```
 http://localhost:5000
 ```
@@ -110,7 +110,7 @@ http://localhost:5000
 - npm start
 
 
-*Frontend runs at:*
+**Frontend runs at:**
 ```
 http://localhost:3000
 
