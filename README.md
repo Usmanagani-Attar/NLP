@@ -4,6 +4,11 @@ A **MERN Stack NLP Application** that generates **summaries**, performs **sentim
 The results are visualized using charts for better insights.
 
 ---
+## 🌐 Live Demo
+
+🔗 **Live Demo:** https://nlp-frontend-alpha.vercel.app/  
+📂 **Backend API:** https://nlp-gv28.onrender.com
+
 
 ## 📌 About This Project
 
